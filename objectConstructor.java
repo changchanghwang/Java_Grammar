@@ -3,7 +3,7 @@ class Phone {
     String color;
     int price;
 
-    public Phone(String model, String color, int price) {
+    public Phone(String model, String color, int price) { //생성자. 클래스의 이름과 동일하게 적어야함.
         this.model = model;
         this.color = color;
         this.price = price;
